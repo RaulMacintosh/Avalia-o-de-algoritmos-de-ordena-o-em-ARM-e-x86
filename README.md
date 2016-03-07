@@ -1,11 +1,11 @@
-# Performance differences between x86 (MacBook Pro) and Arm (BeagleBone Black)
+# Performance differences between x86 (MacBook Pro) and ARM (BeagleBone Black)
 
-## Instalation
+## Installation
 ***
-First you need to install the Debian on a MicroSD Card to work with the BeagleBone Black. Follow these steps to do the instalation.
+First you need to install the Debian on a MicroSD Card to work with the BeagleBone Black. Follow these steps to do the installation.
 
 - Open the Terminal and run "wget https://rcn-ee.com/rootfs/2016-02-11/elinux/debian-8.3-console-armhf-2016-02-11.tar.xz" to download the Debian Jessie.
-- Unpack it running "tar xf debian-8.3-console-armhf-2016-02-11.tar.xz".
+- Unpack it writing "tar xf debian-8.3-console-armhf-2016-02-11.tar.xz".
 - Enter on the folder with the Debian, using "cd debian-8.3-console-armhf-2016-02-11".
 - Insert your MicroSD Card on your computer.
 - Identify it running "sudo ./setup_sdcard.sh --probe-mmc" (you need to put your root password).
