@@ -45,4 +45,4 @@ Put the USB stick on your computer and plot the values using GNUPLOT.
 ***
 To install the GNUPLOT you just need to open the Terminal and write "sudo apt-get install gnuplot-x11".
 
-Now you can plot the algorithm's values just put "gnuplot" on the terminal and follow these commands to plot your values <http://www.dicasl.com.br/arquivo/usando_gnuplot_para_gerar_bons_graficos.php>
+Now you can plot the algorithm's values just put "gnuplot" on the terminal and follow these commands to plot your values <http://www.dicas-l.com.br/arquivo/usando_gnuplot_para_gerar_bons_graficos.php>
