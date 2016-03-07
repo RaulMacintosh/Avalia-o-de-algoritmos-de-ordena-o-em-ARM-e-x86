@@ -9,7 +9,7 @@ First you need to install the Debian on a MicroSD Card to work with the BeagleBo
 - Enter on the folder with the Debian, using "cd debian-8.3-console-armhf-2016-02-11".
 - Insert your MicroSD Card on your computer.
 - Identify it running "sudo ./setup_sdcard.sh --probe-mmc" (you need to put your root password).
-- You will see the ID of your MicroSD Card on the first column, it's a code like "mmcblk0" or "sdb1", you can check looking at the column with the size of your MicroSD Card. Take note of this number.
+- You will see the ID of your MicroSD Card on the first column, it is a code like "mmcblk0" or "sdb1", you can check looking at the column with the size of your MicroSD Card. Take note of this number.
 - Run this following code changing the "mmcblk0" for your MicroSD Card ID that you noted "sudo ./setup_sdcard.sh --mmc /dev/mmcblk0 --dtb beaglebone".
 - The instalation will take a few minutes.
 - With the Debian on your MicroSD Card you need to insert it on the BeagleBone Black.
@@ -23,11 +23,11 @@ Now you can access the Debian Jessie Operational System on your board.
 To run C++ codes on BeagleBone Black you will need a cross-compiler to generate the binary code for ARM.
 On the Terminal, write this code "sudo apt-get install g++-arm-linux-gnueabihf".
 
-To generate the binary ARM o need to go to the directory of your code on your computer writing this code "cd /your_directory".
+To generate the binary ARM you need to go to the directory of your code on your computer writing this code "cd /your_directory".
 Now run the following command "arm-linux-gnueabihf-g++ -o program_name program_code.cpp"
 If your compilation was succeeded, you can send the binary ARM to the BeagleBone Black. Run this command "sshpass -p 'temppwd' scp program_name debian@192.168.7.2:~"
 
-Now you can run the code on BeagleBone Balck. Enter on your board Operational System and run the app using "./program_name"
+Now you can run the code on BeagleBone Black. Enter on your board Operational System and run the app using "./program_name"
 
 ## Testing the algorithms
 ***
@@ -45,4 +45,4 @@ Put the USB stick on your computer and plot the values using GNUPLOT.
 ***
 To install the GNUPLOT you just need to open the Terminal and write "sudo apt-get install gnuplot-x11".
 
-Now you can plot the algorithm's values just put "gnuplot" on the terminal and follow these commands to plot your values <http://www.dicas-l.com.br/arquivo/usando_gnuplot_para_gerar_bons_graficos.php>
+Now you can plot the algorithm's values just put "gnuplot" on the terminal and follow these commands to plot your values <http://www.dicasl.com.br/arquivo/usando_gnuplot_para_gerar_bons_graficos.php>
