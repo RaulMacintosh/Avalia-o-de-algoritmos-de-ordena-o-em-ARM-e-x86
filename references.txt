@@ -1,0 +1,4 @@
+https://pt.wikipedia.org/wiki/Quicksort#Pseudoc.C3.B3digo
+http://forum.clubedohardware.com.br/topic/803754-gravar-arquivos-em-c/
+http://stackoverflow.com/questions/5590381/easiest-way-to-convert-int-to-string-in-c
+http://www.dicas-l.com.br/arquivo/usando_gnuplot_para_gerar_bons_graficos.php
