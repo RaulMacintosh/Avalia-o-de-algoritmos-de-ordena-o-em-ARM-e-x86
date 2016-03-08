@@ -61,8 +61,8 @@ It was done some tests with these algorithms and was generated 4 graphics, here 
 
 ### Clock function on BBB
 
-![Clock](Cloc/BBB/plot.png?raw=true "Clock function graphic")
+![Clock](Clock/BBB/plot.png?raw=true "Clock function graphic")
 
 ### Clock function on MacBook Pro i5
 
-![Clock](Cloc/MacBook Pro/plot.png?raw=true "Clock function graphic")
+![Clock](Clock/MacBook Pro/plot.png?raw=true "Clock function graphic")
