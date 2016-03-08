@@ -46,3 +46,23 @@ Put the USB stick on your computer and plot the values using GNUPLOT.
 To install the GNUPLOT you just need to open the Terminal and write "sudo apt-get install gnuplot-x11".
 
 Now you can plot the algorithm's values just put "gnuplot" on the terminal and follow these commands to plot your values <http://www.dicas-l.com.br/arquivo/usando_gnuplot_para_gerar_bons_graficos.php>
+
+## Analysis
+***
+It was done some tests with these algorithms and was generated 4 graphics, here they are:
+
+### Time function on BBB
+
+![Time](Time/BBB/plot.png?raw=true "Time function graphic")
+
+### Time function on MacBook Pro i5
+
+![Time](Time/MacBook Pro/plot.png?raw=true "Time function graphic")
+
+### Clock function on BBB
+
+![Clock](Cloc/BBB/plot.png?raw=true "Clock function graphic")
+
+### Clock function on MacBook Pro i5
+
+![Clock](Cloc/MacBook Pro/plot.png?raw=true "Clock function graphic")
