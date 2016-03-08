@@ -69,4 +69,4 @@ It was done some tests with these algorithms and was generated 4 graphics (axis 
 
 ## Conclusion
 ***
-Analysing the graphics we saw that the hardware resources of the BeagleBone Black, definitively, are dedicated for applications with less power of processing than the normal computers. About the functions used on these tests, the Clock function was more precise to analyse the execution time. For the algorithms we could see that the Quick Sort was the best in time to execute the sorting of all vectors
+Analysing the graphics we saw that the hardware resources of the BeagleBone Black, definitively, are dedicated for applications with less power of processing than the normal computers. About the functions used on these tests, the Clock function was more precise to analyse the execution time of the algorithms. For the algorithms we could see that the Quick Sort was the best in time to execute the sorting of all vectors.
